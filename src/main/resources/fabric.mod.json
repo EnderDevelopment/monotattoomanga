@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 1,
+  "id": "monochrome_manga_skin",
+  "version": "1.0.0",
+  "name": "Monochrome Manga Skin",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.enderdevelopment.monochrome_manga_skin.MonochromeMangaSkinMod"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.20.1",
+    "minecraft": "~26.3",
+    "java": ">=25",
+    "fabric-api": "*"
+  }
+}

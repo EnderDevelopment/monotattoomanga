@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 64 64" shape-rendering="crispEdges">
+<!-- 64x64 classic player skin: monochrome adult anime woman -->
+<defs>
+  <linearGradient id="hair" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#17191d"/><stop offset="1" stop-color="#555a63"/></linearGradient>
+  <linearGradient id="skin" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#f7f7f7"/><stop offset="1" stop-color="#bfc3c8"/></linearGradient>
+</defs>
+<!-- head base: top, sides, face and rear -->
+<path d="M8 0h8v8H8zM16 0h8v8h-8zM0 8h8v8H0zM8 8h8v8H8zM16 8h8v8h-8zM24 8h8v8h-8z" fill="url(#skin)" stroke="#202228" stroke-width=".45"/>
+<!-- hair cap and wolf cut silhouette -->
+<path d="M8 0h8v2h8v6h-2v2h-2v6h-3v-4h-2v2h-2v-4h-2v4h-2V9H8z" fill="url(#hair)"/>
+<path d="M0 8h3V5h3V2h5v5H9v7H6v2H0zM24 5h4v3h4v8h-5v-3h-2v-4h-2V7z" fill="#292c32"/>
+<!-- fringe -->
+<path d="M9 7h2v4h2V8h2v3h2V7h2v4h2v-3h1v4h-2v2h-2v-2h-2v2h-2v-3h-2v3h-2v-2H9z" fill="#101216"/>
+<!-- face, manga eyes, nose and mouth -->
+<path d="M10 10h2v2h-2zM17 10h2v2h-2z" fill="#fff" stroke="#181a1e" stroke-width=".5"/>
+<path d="M11 10h1v1h-1zM17 10h1v1h-1zM14 12h1v1h-1zM13 14h3v1h-3z" fill="#202228"/>
+<!-- glasses -->
+<path d="M9 9h5v4H9zM16 9h5v4h-5zM14 10h2v1h-2z" fill="none" stroke="#111318" stroke-width=".65"/>
+<path d="M9 10H7M21 10h2" stroke="#111318" stroke-width=".6"/>
+<!-- hair overlay, side locks -->
+<path d="M40 0h8v8h-8zM48 0h8v8h-8zM32 8h8v8h-8zM40 8h8v8h-8zM48 8h8v8h-8zM56 8h8v8h-8z" fill="#272a30" stroke="#101216" stroke-width=".4"/>
+<path d="M41 1h6v3h-2v4h-3zM50 1h5v3h-2v4h-3zM34 9h4v5h-2v2h-2zM58 9h4v6h-2v-3h-2z" fill="#737982"/>
+<!-- body base and back -->
+<path d="M20 20h8v12h-8zM28 20h8v12h-8zM32 20h8v12h-8zM40 20h8v12h-8z" fill="url(#skin)" stroke="#202228" stroke-width=".45"/>
+<!-- torso swimsuit front -->
+<path d="M21 20h2v3h2v-3h2v4h-1v2h-4v-2h-1zM20 24h8v8h-2v-2h-4v2h-2z" fill="#15171b"/>
+<path d="M21 25h2v1h-2zM25 25h2v1h-2z" fill="#f5f5f5"/>
+<!-- chain necklace -->
+<path d="M22 22l1 1 1-1 1 1 1-1 1 1" fill="none" stroke="#d9dce0" stroke-width=".55"/>
+<circle cx="25.5" cy="24" r=".8" fill="#d9dce0" stroke="#25272c" stroke-width=".35"/>
+<!-- back swimsuit and spine accents -->
+<path d="M32 21h8v3h-2v2h-4v-2h-2zM33 28h6v4h-6z" fill="#16181c"/>
+<path d="M35 21h2v2h-2zM35 25h2v1h-2zM35 28h2v1h-2z" fill="#d4d7dc"/>
+<!-- spider tattoo on right shoulder/front -->
+<g stroke="#111318" stroke-width=".45" fill="none"><ellipse cx="27" cy="21.5" rx=".8" ry=".6" fill="#111318"/><path d="M26.4 21l-1-1M26.3 21.5l-1.4-.2M26.5 22l-1.1.8M27.6 21l1-1M27.7 21.5l1.4-.2M27.5 22l1.1.8"/></g>
+<!-- arms base, sleeves, gloves -->
+<path d="M16 20h4v12h-4zM12 20h4v12h-4zM40 20h4v12h-4zM44 20h4v12h-4z" fill="url(#skin)" stroke="#202228" stroke-width=".45"/>
+<path d="M12 20h4v3h-4zM44 20h4v3h-4z" fill="#17191d"/>
+<path d="M12 29h4v3h-4zM44 29h4v3h-4z" fill="#24272d"/>
+<!-- legs -->
+<path d="M20 32h4v12h-4zM24 32h4v12h-4zM28 32h4v12h-4zM32 32h4v12h-4z" fill="url(#skin)" stroke="#202228" stroke-width=".45"/>
+<!-- high-waist swimsuit bottom and thigh straps -->
+<path d="M20 32h12v4h-3v2h-6v-2h-3z" fill="#14161a"/>
+<path d="M21 36h3v2h-3zM28 36h3v2h-3z" fill="#dfe1e4"/>
+<!-- boots/legs detail -->
+<path d="M20 41h4v3h-4zM28 41h4v3h-4z" fill="#26292f"/>
+<!-- leg back panels -->
+<path d="M32 32h8v4h-8zM32 40h8v4h-8z" fill="#202329" stroke="#101216" stroke-width=".4"/>
+<path d="M34 33h4v1h-4zM34 41h4v1h-4z" fill="#bfc3c8"/>
+</svg>
